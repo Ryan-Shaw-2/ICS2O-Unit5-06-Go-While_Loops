@@ -17,7 +17,7 @@ func main() {
 	// input
 	fmt.Println("This program multiples two numbers using while loops")
 	fmt.Println()
-	fmt.Print("Enter the first number ")
+	fmt.Print("Enter the first number: ")
 	fmt.Scanln(&number1)
 	fmt.Print("Enter the second number: ")
 	fmt.Scanln(&number2)
@@ -25,8 +25,8 @@ func main() {
 
 	// process
 	for counter < number1 {
-		total = total + number2
-		counter = counter + 1
+		total += number2
+		counter++
 	}
 
 	// output
